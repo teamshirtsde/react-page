@@ -1,6 +1,6 @@
 {
   "name": "@teamshirts/plugins-slate",
-  "version": "0.2.0",
+  "version": "0.2.1-teamshirts.0",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "author": "ORY GmbH",
@@ -26,8 +26,8 @@
     "@guestbell/slate-common": "0.3.0",
     "@guestbell/slate-edit-blockquote": "0.3.0",
     "@guestbell/slate-edit-list": "0.3.0",
-    "@teamshirts/core": "^0.2.0",
-    "@teamshirts/ui": "^0.2.0",
+    "@teamshirts/core": "^0.2.1-teamshirts.0",
+    "@teamshirts/ui": "^0.2.1-teamshirts.0",
     "deep-rename-keys": "^0.2.1",
     "immutable": "3.8.2",
     "is-hotkey": "0.1.4",
