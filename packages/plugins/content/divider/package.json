@@ -1,6 +1,6 @@
 {
   "name": "@teamshirts/plugins-divider",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "author": "ORY GmbH",
@@ -18,13 +18,13 @@
     "clean": "rimraf \"lib/*\""
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
     "@material-ui/core": "^4.0.0",
-    "@material-ui/icons": "^4.0.0"
+    "@material-ui/icons": "^4.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@teamshirts/core": "0.0.0"
+    "@teamshirts/core": "^0.0.1"
   },
   "publishConfig": {
     "access": "public"

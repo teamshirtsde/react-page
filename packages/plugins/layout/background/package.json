@@ -1,6 +1,6 @@
 {
   "name": "@teamshirts/plugins-background",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/index.js",
   "author": "ORY GmbH",
   "license": "GNU Lesser General Public License v3.0",
@@ -22,10 +22,9 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@teamshirts/core": "0.0.0",
-    "@teamshirts/ui": "0.0.0"
+    "@teamshirts/core": "^0.0.1",
+    "@teamshirts/ui": "^0.0.1"
   },
-  "devDependencies": {},
   "publishConfig": {
     "access": "public"
   }

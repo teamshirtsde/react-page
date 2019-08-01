@@ -1,6 +1,6 @@
 {
   "name": "@teamshirts/ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "ORY GmbH",
   "license": "GNU Lesser General Public License v3.0",
   "main": "./lib/index.js",
@@ -24,10 +24,10 @@
     "react-jss": "^8.6.1"
   },
   "dependencies": {
+    "@teamshirts/core": "^0.0.1",
     "classnames": "^2.2.5",
     "device.js": "^2.3.0",
     "lodash.throttle": "^4.1.1",
-    "@teamshirts/core": "0.0.0",
     "rc-tooltip": "^3.4.3",
     "react-color": "^2.14.1",
     "react-dnd": "^2.4.0",
