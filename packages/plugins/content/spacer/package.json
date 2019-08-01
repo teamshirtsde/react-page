@@ -1,6 +1,6 @@
 {
   "name": "@teamshirts/plugins-spacer",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "author": "ORY GmbH",
@@ -23,8 +23,8 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@teamshirts/core": "^0.0.1",
-    "@teamshirts/ui": "^0.0.1",
+    "@teamshirts/core": "^0.2.0",
+    "@teamshirts/ui": "^0.2.0",
     "classnames": "2.2.6",
     "react-resizable": "1.7.5"
   },
