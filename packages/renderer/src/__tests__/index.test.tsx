@@ -23,11 +23,11 @@
 import { mount, render } from 'enzyme';
 import * as React from 'react';
 import { HTMLRenderer } from '../index';
-import slate from '@react-page/plugins-slate';
-import { LayoutPluginProps } from '@react-page/core/lib/service/plugin/classes';
-import { Plugins } from '@react-page/core/src/service/plugin/classes';
-import { ContentPluginProps } from '@react-page/core/lib/service/plugin/classes';
-import { EditableType } from '@react-page/core/lib/types/editable';
+import slate from '@teamshirts/plugins-slate';
+import { LayoutPluginProps } from '@teamshirts/core/lib/service/plugin/classes';
+import { Plugins } from '@teamshirts/core/src/service/plugin/classes';
+import { ContentPluginProps } from '@teamshirts/core/lib/service/plugin/classes';
+import { EditableType } from '@teamshirts/core/lib/types/editable';
 
 const Layout = ({ children, state: { className } }) => (
   <div className={`${className}`}>{children}</div>

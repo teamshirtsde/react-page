@@ -1,4 +1,4 @@
-import { ImageLoaded, ImageUploaded } from '@react-page/ui/lib/ImageUpload';
+import { ImageLoaded, ImageUploaded } from '@teamshirts/ui/lib/ImageUpload';
 
 export interface ImageApi {
   handleImageLoaded: (image: ImageLoaded) => void;

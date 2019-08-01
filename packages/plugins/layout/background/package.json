@@ -1,5 +1,5 @@
 {
-  "name": "@react-page/plugins-background",
+  "name": "@teamshirts/plugins-background",
   "version": "0.0.0",
   "main": "./lib/index.js",
   "author": "ORY GmbH",
@@ -22,8 +22,8 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@react-page/core": "0.0.0",
-    "@react-page/ui": "0.0.0"
+    "@teamshirts/core": "0.0.0",
+    "@teamshirts/ui": "0.0.0"
   },
   "devDependencies": {},
   "publishConfig": {

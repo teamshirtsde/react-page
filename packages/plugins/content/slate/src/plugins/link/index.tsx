@@ -33,7 +33,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogActions from '@material-ui/core/DialogActions';
 import Button from '@material-ui/core/Button';
 import { Data, Inline, Editor } from 'slate';
-import { ThemeProvider } from '@react-page/ui';
+import { ThemeProvider } from '@teamshirts/ui';
 import { RenderNodeProps } from 'slate-react';
 import { NextType } from '../../types/next';
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { ColorPicker } from '@react-page/ui';
-import { RGBColor } from '@react-page/ui/lib/ColorPicker';
+import { ColorPicker } from '@teamshirts/ui';
+import { RGBColor } from '@teamshirts/ui/lib/ColorPicker';
 import { BackgroundProps } from '../../types/component';
 
 export interface ColorComponentProps {

@@ -1,5 +1,5 @@
 {
-  "name": "@react-page/plugins-image",
+  "name": "@teamshirts/plugins-image",
   "version": "0.0.0",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
@@ -23,8 +23,8 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@react-page/core": "0.0.0",
-    "@react-page/ui": "0.0.0"
+    "@teamshirts/core": "0.0.0",
+    "@teamshirts/ui": "0.0.0"
   },
   "publishConfig": {
     "access": "public"

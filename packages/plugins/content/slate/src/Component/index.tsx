@@ -26,7 +26,7 @@ import { Portal } from 'react-portal';
 import isHotkey from 'is-hotkey';
 import { NextType } from '../types/next';
 import { Editor, getEventTransfer } from 'slate-react';
-import { BottomToolbar, ThemeProvider } from '@react-page/ui';
+import { BottomToolbar, ThemeProvider } from '@teamshirts/ui';
 import debounce from 'lodash.debounce';
 
 import { html as serializer } from '../hooks';

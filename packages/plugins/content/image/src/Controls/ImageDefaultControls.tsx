@@ -4,10 +4,10 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 import Checkbox from '@material-ui/core/Checkbox';
-import { ImageUpload } from '@react-page/ui';
+import { ImageUpload } from '@teamshirts/ui';
 
-import { BottomToolbar } from '@react-page/ui';
-import { darkTheme, default as ThemeProvider } from '@react-page/ui/lib/ThemeProvider';
+import { BottomToolbar } from '@teamshirts/ui';
+import { darkTheme, default as ThemeProvider } from '@teamshirts/ui/lib/ThemeProvider';
 
 const ImageDefaultControls: React.SFC<ImageControlsProps> = props => {
   const { Renderer, handleImageLoaded, handleImageUploaded, handleChange, readOnly, focused } = props;

@@ -25,7 +25,7 @@ import Icon from '@material-ui/icons/PlayArrow';
 import {
   ContentPluginProps,
   ContentPluginConfig
-} from '@react-page/core/lib/service/plugin/classes';
+} from '@teamshirts/core/lib/service/plugin/classes';
 import Html5Video from './Component';
 import { Html5VideoSettings } from './types/settings';
 import { Html5VideoProps } from './types/component';

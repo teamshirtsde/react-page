@@ -22,9 +22,9 @@
 
 import * as React from 'react';
 import TextField from '@material-ui/core/TextField';
-import { darkTheme } from '@react-page/ui/lib/ThemeProvider';
+import { darkTheme } from '@teamshirts/ui/lib/ThemeProvider';
 
-import { BottomToolbar } from '@react-page/ui';
+import { BottomToolbar } from '@teamshirts/ui';
 import { VideoControlsProps } from '../types/controls';
 import { defaultVideoState } from '../default/state';
 

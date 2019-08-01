@@ -22,11 +22,11 @@
 
 import * as React from 'react';
 import classNames from 'classnames';
-import PluginService from '@react-page/core/lib/service/plugin';
-import { editable as reducer } from '@react-page/core/lib/reducer/editable';
-import { Cell, Row, Layout, Content } from '@react-page/core/lib/types/editable';
-import { Plugins } from '@react-page/core/lib/service/plugin/classes';
-import { EditableType } from '@react-page/core/lib/types/editable';
+import PluginService from '@teamshirts/core/lib/service/plugin';
+import { editable as reducer } from '@teamshirts/core/lib/reducer/editable';
+import { Cell, Row, Layout, Content } from '@teamshirts/core/lib/types/editable';
+import { Plugins } from '@teamshirts/core/lib/service/plugin/classes';
+import { EditableType } from '@teamshirts/core/lib/types/editable';
 
 const gridClass = (size: number = 12): string =>
   `ory-cell-sm-${size} ory-cell-xs-12`;

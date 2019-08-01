@@ -24,56 +24,56 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 // The editor core
-import Editor, { Editable, createEmptyState } from '@react-page/core';
-import '@react-page/core/lib/index.css'; // we also want to load the stylesheets
+import Editor, { Editable, createEmptyState } from '@teamshirts/core';
+import '@teamshirts/core/lib/index.css'; // we also want to load the stylesheets
 
 // The default ui components
-import { Trash, DisplayModeToggle, Toolbar } from '@react-page/ui';
-import '@react-page/ui/lib/index.css';
+import { Trash, DisplayModeToggle, Toolbar } from '@teamshirts/ui';
+import '@teamshirts/ui/lib/index.css';
 
 // The rich text area plugin
-import slate from '@react-page/plugins-slate';
-import '@react-page/plugins-slate/lib/index.css';
+import slate from '@teamshirts/plugins-slate';
+import '@teamshirts/plugins-slate/lib/index.css';
 
 // The spacer plugin
-import spacer from '@react-page/plugins-spacer';
-import '@react-page/plugins-spacer/lib/index.css';
+import spacer from '@teamshirts/plugins-spacer';
+import '@teamshirts/plugins-spacer/lib/index.css';
 
 // The image plugin
-import { imagePlugin } from '@react-page/plugins-image';
-import '@react-page/plugins-image/lib/index.css';
+import { imagePlugin } from '@teamshirts/plugins-image';
+import '@teamshirts/plugins-image/lib/index.css';
 
 // The video plugin
-import video from '@react-page/plugins-video';
-import '@react-page/plugins-video/lib/index.css';
+import video from '@teamshirts/plugins-video';
+import '@teamshirts/plugins-video/lib/index.css';
 
 // The parallax plugin
-import parallax from '@react-page/plugins-parallax-background';
-import '@react-page/plugins-parallax-background/lib/index.css';
+import parallax from '@teamshirts/plugins-parallax-background';
+import '@teamshirts/plugins-parallax-background/lib/index.css';
 
 // The background plugin
-import background from '@react-page/plugins-background';
-import { ModeEnum } from '@react-page/plugins-background/lib/types/modeEnum';
-import '@react-page/plugins-background/lib/index.css';
+import background from '@teamshirts/plugins-background';
+import { ModeEnum } from '@teamshirts/plugins-background/lib/types/modeEnum';
+import '@teamshirts/plugins-background/lib/index.css';
 
 // The html5-video plugin
-import html5video from '@react-page/plugins-html5-video';
-import '@react-page/plugins-html5-video/lib/index.css';
+import html5video from '@teamshirts/plugins-html5-video';
+import '@teamshirts/plugins-html5-video/lib/index.css';
 
 // The native handler plugin
-import native from '@react-page/plugins-default-native';
+import native from '@teamshirts/plugins-default-native';
 
 // The divider plugin
-import divider from '@react-page/plugins-divider';
+import divider from '@teamshirts/plugins-divider';
 
 // Renders json state to html, can be used on server and client side
-import { HTMLRenderer } from '@react-page/renderer';
+import { HTMLRenderer } from '@teamshirts/renderer';
 
 // The content state
 import content from './content';
 import './styles.css';
-import { ImageUploadType } from '@react-page/ui/lib/ImageUpload';
-import { Plugins } from '@react-page/core/lib/service/plugin/classes';
+import { ImageUploadType } from '@teamshirts/ui/lib/ImageUpload';
+import { Plugins } from '@teamshirts/core/lib/service/plugin/classes';
 
 const fakeImageUploadService: (url: string) => ImageUploadType = (defaultUrl) => (file, reportProgress) => {
   return new Promise((resolve, reject) => {

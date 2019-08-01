@@ -1,4 +1,4 @@
-import { RGBColor } from '@react-page/ui/lib/ColorPicker';
+import { RGBColor } from '@teamshirts/ui/lib/ColorPicker';
 
 export type Gradient = {
   opacity: number;

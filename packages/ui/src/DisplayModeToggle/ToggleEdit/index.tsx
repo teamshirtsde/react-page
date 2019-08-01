@@ -25,8 +25,8 @@ import Button from '../Button/index';
 
 import { connect } from 'react-redux';
 
-import { editMode } from '@react-page/core/lib/actions/display';
-import { isEditMode } from '@react-page/core/lib/selector/display';
+import { editMode } from '@teamshirts/core/lib/actions/display';
+import { isEditMode } from '@teamshirts/core/lib/selector/display';
 import { createStructuredSelector } from 'reselect';
 
 export interface InnerReduxProps {

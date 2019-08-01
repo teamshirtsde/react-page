@@ -1,8 +1,8 @@
 import * as React from 'react';
 
 import { BackgroundProps } from '../types/component';
-import { RGBColor } from '@react-page/ui/lib/ColorPicker';
-import { ImageLoaded } from '@react-page/ui/lib/ImageUpload';
+import { RGBColor } from '@teamshirts/ui/lib/ColorPicker';
+import { ImageLoaded } from '@teamshirts/ui/lib/ImageUpload';
 import { ModeEnum } from '../types/modeEnum';
 import { BackgroundApi } from '../types/api';
 

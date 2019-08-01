@@ -22,8 +22,8 @@
 import * as React from 'react';
 import Resize from '@material-ui/icons/SettingsOverscan';
 import { connect } from 'react-redux';
-import { resizeMode } from '@react-page/core/lib/actions/display';
-import { isResizeMode } from '@react-page/core/lib/selector/display';
+import { resizeMode } from '@teamshirts/core/lib/actions/display';
+import { isResizeMode } from '@teamshirts/core/lib/selector/display';
 import { createStructuredSelector } from 'reselect';
 
 import Button from '../Button/index';

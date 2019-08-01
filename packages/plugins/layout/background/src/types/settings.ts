@@ -1,8 +1,8 @@
 import { BackgroundRendererProps } from './renderer';
 import { BackgroundControlsProps } from './controls';
-import { ContentPluginConfig } from '@react-page/core/lib/service/plugin/classes';
-import { RGBColor } from '@react-page/ui/lib/ColorPicker';
-import { ImageUploadType } from '@react-page/ui/lib/ImageUpload';
+import { ContentPluginConfig } from '@teamshirts/core/lib/service/plugin/classes';
+import { RGBColor } from '@teamshirts/ui/lib/ColorPicker';
+import { ImageUploadType } from '@teamshirts/ui/lib/ImageUpload';
 import { ModeEnum } from './modeEnum';
 import { Translations } from './translations';
 

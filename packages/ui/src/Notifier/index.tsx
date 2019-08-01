@@ -24,10 +24,10 @@ import * as React from 'react';
 import Snackbar from '@material-ui/core/Snackbar';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-import { updateSetting } from '@react-page/core/lib/actions/setting';
-import { getSetting } from '@react-page/core/lib/selector/setting';
-import i18n from '@react-page/core/lib/service/i18n';
-import { RootState } from '@react-page/core/lib/types/state';
+import { updateSetting } from '@teamshirts/core/lib/actions/setting';
+import { getSetting } from '@teamshirts/core/lib/selector/setting';
+import i18n from '@teamshirts/core/lib/service/i18n';
+import { RootState } from '@teamshirts/core/lib/types/state';
 
 export const dismissedMobilePreviewKey = 'mobile-preview-dismissed';
 

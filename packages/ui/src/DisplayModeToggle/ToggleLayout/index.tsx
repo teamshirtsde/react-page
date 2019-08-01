@@ -25,8 +25,8 @@ import Button from '../Button';
 
 import { connect } from 'react-redux';
 
-import { layoutMode } from '@react-page/core/lib/actions/display';
-import { isLayoutMode } from '@react-page/core/lib/selector/display';
+import { layoutMode } from '@teamshirts/core/lib/actions/display';
+import { isLayoutMode } from '@teamshirts/core/lib/selector/display';
 import { createStructuredSelector } from 'reselect';
 
 export interface InnerReduxProps {
